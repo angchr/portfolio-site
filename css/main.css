@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background:url('../img/paper.png');
+
+}
+
+.row {
+  margin: 0px;
+}
+
+#top-menu ul {
+  list-style: none;
+}
+
+#top-menu ul li {
+  float: right;
+  padding: 0 100px 0 50px;
+  margin-top: 20px;
+}
+
+#top-menu a {
+  text-decoration: none;
+}
+
+#top-menu a:hover {
+  color: #00ff49;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.topShow {
+  text-align: center;
+}
+
+#portfolio-click {
+  margin-top: 75px;
+}
+
+
+.rightPop {
+  opacity: 0;
+}
+
+.leftPop {
+  opacity: 0;
+}
+
+.leftPop img {
+  border-radius: 200px;
+}
+
+.centerShow {
+  text-align: center;
+  margin-top: 0px;
+  font-family: Zapfino;
+  font-size: 36px;
+}
+
+.bottomShow {
+  text-align: center;
+}
+
+.bottomRightPop {
+  opacity: 0;
+  text-align: left;
+}
+
+#form-front {
+  margin-left: 225px;
+}
+
+.bottomLeftPop {
+  opacity: 0;
+}
+
+
+#about {
+  cursor: pointer;
+}
+
+#portfolio-click {
+  cursor: pointer;
+}

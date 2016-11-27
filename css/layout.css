@@ -1,0 +1,53 @@
+/* this ensures that the masonary layout is in check*/
+#masonry {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  display: none;
+}
+
+.item {
+  float: left;
+  padding: 5px;
+}
+/*
+.caption {
+  background-color: transparent;
+  position: absolute;
+  color: #fff;
+  z-index: 100;
+  transition: all 300ms ease-out;
+  text-align: center;
+  height: 45px;
+
+  bottom: -35px;
+}
+
+#tribute .caption {
+  color: #000;
+}
+
+#tribute:hover .caption, #random:hover .caption {
+  cursor: pointer;
+  display: block;
+  transform: translateY(-100%);
+}
+*/
+
+/* deals with the about page layout */
+
+
+.afterClickAbout {
+  text-align: center;
+  display: none;
+  margin-top: 10px;
+}
+
+#aboutImage {
+  margin: 10px;
+}
+
+#aboutBlurb {
+  margin-top: 125px;
+
+}

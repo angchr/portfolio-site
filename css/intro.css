@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('../img/coffee_stain.png'), url('../img/colour.png'),url('../img/paper.png');
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: right top, left top;
+  margin: 25px;
+}
+
+div {
+
+}
+
+span {
+  text-align: right;
+}
+
+.coffee {
+  text-align: right;
+  padding-right: 75px;
+  font-family: "Hanzipen SC";
+  font-size: 100%;
+  opacity: 0;
+}
+
+.coffee:hover {
+  opacity: 1;
+}
+
+.color {
+
+  font-family: zapfino;
+  font-size: 100%;
+  opacity: 0;
+  padding-left: 50px;
+}
+
+.color:hover {
+  opacity: 1;
+}
+
+.hello {
+  font-family: papyrus;
+  font-size: 100%;
+  color: #34495e;
+  text-align: center;
+
+  width: 300px;
+
+}
+
+.hello ol {
+  text-align: left;
+}
+
+.footer {
+  border-top: solid 1px;
+  text-align: center;
+}
